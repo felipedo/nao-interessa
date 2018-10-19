@@ -1,7 +1,7 @@
 setInterval(timeToFive,1000);
 
 function timeToFive(){
-    var targetHour = 22;
+    var targetHour = 17;
     var currentTime = new Date();
     var targetTime = new Date(currentTime.getFullYear(), currentTime.getMonth(), currentTime.getDate(), targetHour, 0, 0);
     
